@@ -112,12 +112,7 @@ public class Calculator {
                 return false;
             }
         }
-
-        if (counter > 0) {
-            return false;
-        }
-
-        return true;
+        return counter<0;
     }
 
     private static boolean isOperator(char character){
